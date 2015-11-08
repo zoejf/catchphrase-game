@@ -1,0 +1,25 @@
+body {
+	background-color: rgb(254,253,251);
+}
+
+.welcome {
+	text-align: center;
+}
+.scores {
+	text-align: center;
+	height: 200px;
+}
+.player {
+	text-align: center;
+}
+
+.box {
+	border: 2px solid blue;
+	text-align: center;
+}
+.game {
+	background-color: yellow;
+}
+.thumbnail {
+	text-align: center;
+}

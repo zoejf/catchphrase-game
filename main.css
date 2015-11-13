@@ -1,9 +1,15 @@
 body {
-	background-color: rgb(254,253,251);
+	background-image: url(images/San_Francisco_districts_map.png);
+	background-size: cover;
 }
 
 .welcome {
+	border: 2px solid blue;
+	background-color: rgb(254,253,251);
 	text-align: center;
+	border-radius: 5px;
+	padding:10px;
+	margin: 30px;
 }
 .scores {
 	text-align: center;
@@ -12,14 +18,26 @@ body {
 .player {
 	text-align: center;
 }
+.race-track {
+	background-color: gray;
+	border: 1px solid black;
+	height: 80px;
+	margin-bottom: 30px;
+}
+.carmen-avatar {
+	height: 60px;
+	margin: 8px;
+	position: absolute;
+}
 
-.box {
-	border: 2px solid blue;
+.question-box {
+	border: 2px solid red;
+	border-radius: 5px;
 	text-align: center;
+	background-color: rgb(254,253,251);
+	padding: 10px;
 }
-.game {
-	background-color: yellow;
-}
+
 .thumbnail {
 	text-align: center;
 }
